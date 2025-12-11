@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Send, Mail, MapPin, Phone, Github, Linkedin, Twitter } from "lucide-react";
+import { Send, Mail, MapPin, Phone, Github, Linkedin, Facebook } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { useToast } from "@/hooks/use-toast";
 import { fadeInUp, staggerContainer, slideInLeft, slideInRight } from "@/utils/animations";
@@ -94,15 +94,15 @@ export function Contact() {
   };
 
   const contactInfo = [
-    { Icon: Mail, label: "Email", value: "hello@alexchen.dev" },
-    { Icon: MapPin, label: "Location", value: "San Francisco, CA" },
-    { Icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
+    { Icon: Mail, label: "Email", value: "sibiyamnqobi2004@gmail.com" },
+    { Icon: MapPin, label: "Location", value: "South Africa, JHB" },
+    { Icon: Phone, label: "Phone", value: "+27 83 702 7547" },
   ];
 
   const socialLinks = [
-    { Icon: Github, href: "https://github.com", label: "GitHub" },
-    { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { Icon: Github, href: "https://github.com/Mnqobi007", label: "GitHub" },
+    { Icon: Linkedin, href: "www.linkedin.com/in/mnqobi-sibiya", label: "LinkedIn" },
+    { Icon: Facebook, href: "https://web.facebook.com/profile.php?id=100053508383927", label: "Facebook" },
   ];
 
   return (

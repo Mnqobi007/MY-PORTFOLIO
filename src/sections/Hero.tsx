@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Twitter, Sparkles } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Sparkles, Facebook } from "lucide-react";
 import { fadeInUp, staggerContainer } from "@/utils/animations";
 import { TypeWriter } from "@/components/TypeWriter";
 import { MagneticButton } from "@/components/MagneticButton";
@@ -161,9 +161,9 @@ export function Hero() {
             className="flex items-center justify-center gap-6"
           >
             {[
-              { Icon: Github, href: "https://github.com", label: "GitHub" },
-              { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+              { Icon: Github, href: "https://github.com/Mnqobi007", label: "GitHub" },
+              { Icon: Linkedin, href: "www.linkedin.com/in/mnqobi-sibiya", label: "LinkedIn" },
+              { Icon: Facebook, href: "https://web.facebook.com/profile.php?id=100053508383927", label: "Facebook" },
             ].map(({ Icon, href, label }) => (
               <a
                 key={label}
