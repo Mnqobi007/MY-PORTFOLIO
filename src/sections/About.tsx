@@ -5,9 +5,6 @@ import {
   Code2,
   Database,
   Server,
-  Globe,
-  Smartphone,
-  Cloud,
   GitBranch,
   Terminal,
 } from "lucide-react";
@@ -20,8 +17,6 @@ const skills = [
   { name: "TypeScript", Icon: Terminal },
   { name: "PostgreSQL", Icon: Database },
   { name: "Python", Icon: Code2 },
-  { name: "AWS", Icon: Cloud },
-  { name: "Docker", Icon: Globe },
   { name: "Git", Icon: GitBranch },
 ];
 
@@ -64,16 +59,15 @@ export function About() {
                 Build exceptional digital experiences with modern technologies. Passionate about creating scalable, user-centric applications that make a difference.
               </p>
               <p>
-                With 5+ years of full-stack experience, I specialize in React, Node.js, and cloud architecture—transforming complex problems into elegant solutions.
+                With 1+ years of full-stack experience, I specialize in React, Node.js, and cloud architecture—transforming complex problems into elegant solutions.
               </p>
             </div>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-4 mt-8">
               {[
-                { value: "5+", label: "Years" },
-                { value: "50+", label: "Projects" },
-                { value: "20+", label: "Clients" },
+                { value: "1+", label: "Years" },
+                { value: "3+", label: "Projects" },
               ].map((stat, index) => (
                 <motion.div 
                   key={stat.label} 

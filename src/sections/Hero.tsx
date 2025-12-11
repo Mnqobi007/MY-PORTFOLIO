@@ -93,7 +93,7 @@ export function Hero() {
             variants={fadeInUp}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 relative inline-block"
           >
-            <span className="text-gradient">Alex Chen</span>
+            <span className="text-gradient">Mnqobi Sibiya</span>
             <motion.span
               initial={{ scaleX: 0 }}
               animate={{ scaleX: 1 }}
