@@ -30,7 +30,7 @@ const Index = () => {
             whileInView={{ opacity: 1 }}
             className="text-muted-foreground text-sm"
           >
-            © {new Date().getFullYear()} Alex Chen. Crafted with ❤️ using React & Framer Motion.
+            © {new Date().getFullYear()} Mnqobi Sibiya. Crafted using React & Framer Motion.
           </motion.p>
         </div>
       </footer>
